@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/ozgesemiz/ee471-week12/compare/v1.1.0...v2.0.0) (2026-06-04)
+
+
+* Merge pull request [#3](https://github.com/ozgesemiz/ee471-week12/issues/3) from ozgesemiz/break/readme-file-changed ([defc070](https://github.com/ozgesemiz/ee471-week12/commit/defc07086452029b9af005c0780e01e1dd039c45))
+
+
+### BREAKING CHANGES
+
+* Readme file changed major.
+
 # [1.1.0](https://github.com/ozgesemiz/ee471-week12/compare/v1.0.1...v1.1.0) (2026-06-04)
 
 
