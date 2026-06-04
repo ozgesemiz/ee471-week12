@@ -19,14 +19,11 @@ jobs:
       - name: Install dependencies
         run: pip install django
 
-      - name: Kill previous instance
-        run: pkill -f "manage.py runserver" || true
+      - name: Deploy server
+        run: bash ~/start_django.sh
 
-      - name: Start server
+      - name: Verify server
         run: |
-          cd ${{ github.workspace }}/djangotutorial
-          nohup python3 -u manage.py runserver 0.0.0.0:8000 </dev/null >/tmp/django.log 2>&1 &
-          disown
           sleep 5
-          curl -s http://localhost:8000/polls/ | head -5 || echo "checking..."
           ps aux | grep manage.py | grep -v grep
+          curl -s http://localhost:8000/polls/ | head -3 || echo "Server check done"
