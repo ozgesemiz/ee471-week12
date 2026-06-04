@@ -23,11 +23,11 @@ jobs:
       - name: Kill previous instance
         run: |
           pkill -f "manage.py runserver" || true
+          screen -ls | grep django | awk '{print $1}' | xargs -I{} screen -S {} -X quit || true
 
-      - name: Start server in background
+      - name: Start server in screen session
         run: |
           cd ${{ github.workspace }}/djangotutorial
-          nohup python3 manage.py runserver 0.0.0.0:8000 > /tmp/django.log 2>&1 &
-          sleep 2
-          echo "Server started, checking..."
-          cat /tmp/django.log
+          screen -dmS django python3 manage.py runserver 0.0.0.0:8000
+          sleep 3
+          echo "Server started on localhost:8000"
