@@ -1,3 +1,10 @@
+## [2.3.2](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.1...v2.3.2) (2026-06-04)
+
+
+### Bug Fixes
+
+* fix CD server path ([2976a8b](https://github.com/ozgesemiz/ee471-week12/commit/2976a8b2b731398cfcf263d9a20c026416b2e432))
+
 ## [2.3.1](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.0...v2.3.1) (2026-06-04)
 
 
