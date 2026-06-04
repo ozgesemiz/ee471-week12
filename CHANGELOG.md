@@ -1,3 +1,10 @@
+## [2.3.3](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.2...v2.3.3) (2026-06-04)
+
+
+### Bug Fixes
+
+* use screen session for persistent server ([29dc365](https://github.com/ozgesemiz/ee471-week12/commit/29dc36562cc41ac88b4d971025ad06ef8c810faf))
+
 ## [2.3.2](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.1...v2.3.2) (2026-06-04)
 
 
