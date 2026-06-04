@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ozgesemiz/ee471-week12/compare/v1.0.1...v1.1.0) (2026-06-04)
+
+
+### Features
+
+* Readme file changed feature. ([182b094](https://github.com/ozgesemiz/ee471-week12/commit/182b09407dd9725df46121ff180882a0c404a39a))
+
 ## [1.0.1](https://github.com/ozgesemiz/ee471-week12/compare/v1.0.0...v1.0.1) (2026-06-04)
 
 
