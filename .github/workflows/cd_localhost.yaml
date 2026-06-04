@@ -18,7 +18,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd djangotutorial
           pip install django
 
       - name: Kill previous instance
@@ -27,6 +26,8 @@ jobs:
 
       - name: Start server in background
         run: |
-          cd djangotutorial
-          nohup python3 manage.py runserver 0.0.0.0:8000 &
-          echo "Server started on localhost:8000"
+          cd ${{ github.workspace }}/djangotutorial
+          nohup python3 manage.py runserver 0.0.0.0:8000 > /tmp/django.log 2>&1 &
+          sleep 2
+          echo "Server started, checking..."
+          cat /tmp/django.log
