@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.0...v2.3.1) (2026-06-04)
+
+
+### Bug Fixes
+
+* update server host for CD deployment ([b309abf](https://github.com/ozgesemiz/ee471-week12/commit/b309abfe690c1cd164afe0676bdddbf9667381d2))
+
 # [2.3.0](https://github.com/ozgesemiz/ee471-week12/compare/v2.2.0...v2.3.0) (2026-06-04)
 
 
