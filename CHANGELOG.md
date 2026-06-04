@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/ozgesemiz/ee471-week12/compare/v2.0.0...v2.1.0) (2026-06-04)
+
+
+### Features
+
+* add lint testing pipeline ([b7fa6e4](https://github.com/ozgesemiz/ee471-week12/commit/b7fa6e41e0231fb1d2c41f983bc3544cb14e4ab5))
+
 # [2.0.0](https://github.com/ozgesemiz/ee471-week12/compare/v1.1.0...v2.0.0) (2026-06-04)
 
 
