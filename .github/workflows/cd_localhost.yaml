@@ -1,0 +1,32 @@
+name: CD Localhost
+
+on:
+  workflow_run:
+    workflows: ["CI Semantic Versioning"]
+    types:
+      - completed
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Pull latest code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          cd djangotutorial
+          pip install django
+
+      - name: Kill previous instance
+        run: |
+          pkill -f "manage.py runserver" || true
+
+      - name: Start server in background
+        run: |
+          cd djangotutorial
+          nohup python3 manage.py runserver 8000 &
+          echo "Server started on localhost:8000"
