@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/ozgesemiz/ee471-week12/compare/v2.2.0...v2.3.0) (2026-06-04)
+
+
+### Features
+
+* trigger CD deployment ([d1ded61](https://github.com/ozgesemiz/ee471-week12/commit/d1ded611c07b6e06fa3911130134644a219df116))
+
 # [2.2.0](https://github.com/ozgesemiz/ee471-week12/compare/v2.1.0...v2.2.0) (2026-06-04)
 
 
