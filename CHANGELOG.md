@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ozgesemiz/ee471-week12/compare/v1.0.0...v1.0.1) (2026-06-04)
+
+
+### Bug Fixes
+
+* Readme file changed fix. ([8dd6b7f](https://github.com/ozgesemiz/ee471-week12/commit/8dd6b7f24485d8a5bd6a406e0f7d6958768cd2db))
+
 # 1.0.0 (2026-06-04)
 
 
