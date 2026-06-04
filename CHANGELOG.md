@@ -1,3 +1,10 @@
+## [2.3.4](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.3...v2.3.4) (2026-06-04)
+
+
+### Bug Fixes
+
+* use disown for persistent server ([3ccf0e7](https://github.com/ozgesemiz/ee471-week12/commit/3ccf0e7dcd1b6305c4a704af65386a561d300a94))
+
 ## [2.3.3](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.2...v2.3.3) (2026-06-04)
 
 
