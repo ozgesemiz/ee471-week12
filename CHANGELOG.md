@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.5...v2.4.0) (2026-06-04)
+
+
+### Features
+
+* trigger CD with tee fix ([72e9fd0](https://github.com/ozgesemiz/ee471-week12/commit/72e9fd0de8f1badbb98a11f442358488a9de6002))
+
 ## [2.3.5](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.4...v2.3.5) (2026-06-04)
 
 
