@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/ozgesemiz/ee471-week12/compare/v2.1.0...v2.2.0) (2026-06-04)
+
+
+### Features
+
+* add CD localhost workflow ([bd3aaab](https://github.com/ozgesemiz/ee471-week12/commit/bd3aaab25dab65c919427b035922560baeee087e))
+
 # [2.1.0](https://github.com/ozgesemiz/ee471-week12/compare/v2.0.0...v2.1.0) (2026-06-04)
 
 
