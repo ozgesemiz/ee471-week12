@@ -1,3 +1,10 @@
+## [2.3.5](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.4...v2.3.5) (2026-06-04)
+
+
+### Bug Fixes
+
+* use external script for persistent server ([61406e4](https://github.com/ozgesemiz/ee471-week12/commit/61406e487c8507e525d3d2ed7a1204bdf8d69d59))
+
 ## [2.3.4](https://github.com/ozgesemiz/ee471-week12/compare/v2.3.3...v2.3.4) (2026-06-04)
 
 
