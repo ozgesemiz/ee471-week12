@@ -17,17 +17,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: |
-          pip install django
+        run: pip install django
 
       - name: Kill previous instance
-        run: |
-          pkill -f "manage.py runserver" || true
-          screen -ls | grep django | awk '{print $1}' | xargs -I{} screen -S {} -X quit || true
+        run: pkill -f "manage.py runserver" || true
 
-      - name: Start server in screen session
+      - name: Start server
         run: |
           cd ${{ github.workspace }}/djangotutorial
-          screen -dmS django python3 manage.py runserver 0.0.0.0:8000
-          sleep 3
-          echo "Server started on localhost:8000"
+          nohup python3 -u manage.py runserver 0.0.0.0:8000 </dev/null >/tmp/django.log 2>&1 &
+          disown
+          sleep 5
+          curl -s http://localhost:8000/polls/ | head -5 || echo "checking..."
+          ps aux | grep manage.py | grep -v grep
